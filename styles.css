@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
@@ -6,6 +8,7 @@
     --cell-size: 100px;
     --mark-size: calc(var(--cell-size) * .9);
 }
+
 body {
     margin: 0;
 }
@@ -125,6 +128,7 @@ body {
     font-size: 5rem;
     flex-direction: column;
 }
+
 .winning-message button {
     font-size: 3rem;
     background-color: white;
